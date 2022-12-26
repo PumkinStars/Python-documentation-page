@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+#main-doc {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#navbar {
+    min-width: 290px;
+    position: fixed;
+    top: 0;
+    border-right: 2px solid #000;
+    width: 300px;
+    height: 100%;
+
+}
+
+#navbar header {
+    font-size: 28px;
+    padding: 12px;
+    border-bottom: 2px solid #444;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-link{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #444;
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar {
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+    }
+
+    #navbar header {
+        text-align: center;
+        padding: 15px
+    }
+
+    #main-doc {
+        position: relative;
+        top: 100vh;
+        margin: 0;
+    } 
+
+}
+
+
+.main-section p {
+    padding: 10px 0px 10px 25px;
+}
+
+.main-section header {
+    font-size: 2rem;
+    padding: 10px 0;
+    display: block;
+}
+
+ li {
+    list-style-position: inside;
+    margin-bottom: 10px;
+    text-indent: 3em;
+    font-size: 85%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+code {
+    background-color: #ddd4d4;
+    padding: 20px;
+    display: block;
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 12px;
+}
+
+img {
+    display: block;
+    clear: both;
+    position: relative;
+    left: 25vw;
+}   
+
+.italic {
+    font-style: italic;
+}
